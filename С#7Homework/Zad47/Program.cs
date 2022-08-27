@@ -13,7 +13,7 @@ int columns = Convert.ToInt32(Console.ReadLine());
 double[,] array = GetArray(rows, columns, 0, 10);
 PrintArray(array);
 
-double[,] GetArray(int m, int n, int  min, int max)
+double[,] GetArray(int m, int n, int min, int max)
 {
     double[,] result = new double[m, n];
     for (int i = 0; i < m; i++)
